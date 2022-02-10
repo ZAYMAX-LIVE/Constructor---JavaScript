@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*app*/
+#app{
+    display: flex;
+    height: 100vh;
+}
+/*panel*/
+.bar{
+    width: 20%;
+    background: rgb(243, 243, 243);
+}
+/*site*/
+.content{
+    width: 80%;
+    overflow-y: scroll;
+    .row{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        img{
+            width: 50%;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*app*/
+#app {
+  display: flex;
+  height: 100vh;
+}
+
+/*panel*/
+.bar {
+  width: 20%;
+  background: #f3f3f3;
+}
+
+/*site*/
+.content {
+  width: 80%;
+  overflow-y: scroll;
+}
+.content .row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.content .row img {
+  width: 50%;
+}
+
+/*# sourceMappingURL=add.css.map */
